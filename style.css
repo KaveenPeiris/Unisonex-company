@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    color:#333;     
+}
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:white;
+    
+}
+
+.logo h1{
+    color:#5a2dff;
+}
+
+.logo img{
+    width:220px;
+    height:auto;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin-left:25px;
+    font-weight:bold;
+    font-size:16px;
+    hover{
+        color:#5a2dff;
+    }
+
+    
+}
+
+
+
+.company-intro{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px;
+    background:#f5f5f5;
+}
+
+.company-text{
+    width:50%;
+}
+
+.company-text h3{
+    color:#5a2dff;
+    margin-bottom:15px;
+}
+
+.company-text h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.company-text p{
+    margin-bottom:20px;
+    color:#666;
+}
+
+.company-text button{
+    padding:12px 30px;
+    background:#5a2dff;
+    color:white;
+    border:none;
+    border-radius:30px;
+}
+
+.company-image{
+     border-radius:15px;
+    width:45%;
+}
+
+.company-image img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* Services */
+
+.services{
+    padding:80px;
+    text-align:center;
+    font-size:18px;
+    color:#333;
+}
+
+.services h2{
+    margin-bottom:40px;
+    font-size:36px;
+
+}
+
+.service-box{
+    display:inline-block;
+    width:300px;
+    padding:25px;
+    margin:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+/* Video Section */
+
+.video-section{
+    text-align:center;
+    padding:80px;
+    background:#f5f5f5;
+}
+
+.video-section h2{
+    margin-bottom:30px;
+}
+
+.video-section video{
+    width:80%;
+    max-width:900px;
+    border-radius:15px;
+}
+
+
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+footer h2{
+    color:#5a2dff;
+    margin-bottom:15px;
+}
+/*services page*/--------------------------
+.services-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:40px;
+}
+.service-item{
+    width:300px;
+    padding:20px;
+    margin:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    text-align:center;
+}
+.service-item h3{
+    color:#5a2dff;
+    margin-bottom:15px;
+}
+.service-item p{
+    color:#666;
+}
+
+
